@@ -1,10 +1,34 @@
 body {
-  background-color: #2C3E50;
+  background-color: #FAEBD7;
+  font-family: 'Tajawal', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #DEB887;
+  width: 100%;
+  height: 6rem;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+h1 {
+  color:white;
+  position: relative;
+  left: 8rem;
+
 }
 
 hr {
-  border: 2px solid black;
-  width: 80%;
+  border: 4px solid white;
+  width: 20rem;
+  position: absolute;
+  left: 8.5rem;
+  top: 3.5rem;
 }
 
 section {
@@ -12,27 +36,39 @@ section {
   box-sizing: border-box;
   width: 80%;
   padding-left: 5em;
-  padding-top: 3em;
+  padding-top: 5em;
+  padding-right: 5em;
   position: absolute;
   left: 10%;
-}
-
-.portrait {
-  height: 15em;
-  width: 20%;
-  box-sizing: border-box;
-  background-color: #EAEDED;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  float: left;
-
-}
-
-div#ambar{
-  clear: right;
+  top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 img {
-  height: 15em;
   width: 100%;
+}
+
+p {
+  font-size: 14pt;
+  background-color: #FA8072;
+  padding: .3rem 2rem;
+  margin: 0;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+}
+
+
+
+section .portrait {
+  height: 15rem;
+  width: 15rem;
+  box-sizing: border-box;
+  background-color: #EAEDED;
+  margin-left: 1rem;
+  margin-bottom: 30px;
+  position: relative;
 }
